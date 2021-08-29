@@ -2,9 +2,9 @@
   "name": "floating_browser",
   "version": "1.0.0",
   "description": "floating browser project v1",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/leticiacmz/floating_browser/issues"
   },
-  "homepage": "https://github.com/leticiacmz/floating_browser#readme"
+  "homepage": "https://github.com/leticiacmz/floating_browser#readme",
+  "devDependencies": {
+    "electron": "^13.2.3"
+  }
 }
